@@ -1,0 +1,107 @@
+style.css 
+
+.nav{
+    background-color: powderblue;
+}
+.nav ul{
+    list-style: none;
+    color: slategray;
+    background-color: powderblue;
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    
+
+
+}
+
+
+.nav li{
+
+    padding: 10px;
+    color: slategray;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 10px;
+    border-bottom: 1px solid powderblue;
+    margin-bottom: -10px;
+    float: left;
+}
+
+.nav a{
+text-decoration: none;
+color: slategray;
+display: block;
+}
+
+.nav a:hover{
+background-color: white;
+}
+
+.nav a.active{
+    background-color: powderblue;
+    color: slategray;
+    cursor: pointer;
+}
+
+.nav a.selfcaremethods{
+    background-color: powderblue;
+    color: slategray;
+    cursor: pointer;
+}
+
+.nav a.active{
+    background-color: powderblue;
+    color: slategray;
+    cursor: pointer;
+}
+
+title{
+    text-align: center;
+}
+
+header{
+    font-family: sans-serif;
+}
+h1{
+    color: slategray;
+    font-family: sans-serif;
+    font-size: 65px;
+    text-align: center;
+    outline-style: hidden;
+    outline-width: 10px;
+}
+
+h2{
+    color: slategray;
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+
+}
+body {background-color: rgb(191, 255, 219);
+text-align: center;
+color: slategray;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+footer{
+    font-family: sans-serif;
+    margin: 5px;
+    display: block;
+    background-color: powderblue;
+    color: slategray;
+    outline-width: 10px;
+    font-style: oblique;
+}
+/*.rgb(191, 255, 219{
+    background-color: rgb(191, 255, 219;
+}
