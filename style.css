@@ -1,0 +1,89 @@
+body{
+    font-size: 30px;
+    font-family: sans-serif;
+    height: fit-content;
+}
+
+.emo{
+    background-color: rgb(188, 186, 230);}
+
+.ment{
+    background-color: rgb(143, 181, 249);}
+
+.spirit{
+    background-color: rgb(240, 202, 131);}
+
+.phys{
+    background-color: rgb(243, 179, 207);}
+
+h1{
+    text-align: center;}
+
+.intro{
+    font-size: 30px;
+    /*round borders on errything miss girl*/
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 900px;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 10px;
+}
+
+div{
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bars{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: auto;
+    padding: 25px 0;
+    height: fit-content;
+
+/*don't set height if you want to vertical centre*/    
+    
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /*display: block;*/
+}
+
+.clear { clear:both; }
+
+/*two main left and right  floated methods then separate classes to detemine the colourway */
+
+
+.method1{
+    background-color: rgb(210, 210, 255);
+    width: 1200px;
+    color: rgb(58, 41, 153);
+    margin: 10px;
+}
+/*for the emotional sect, editted elsewhere dw*/
+
+.method2{
+    background-color: rgb(203, 203, 216);
+    width: 1000px;
+    color: rgb(58, 41, 153);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.method3{
+    background-color: rgb(210, 210, 255);
+    width: 1300px;
+    color: rgb(58, 41, 153);
+    margin: 10px;
+}
+
+
+.foot{
+margin: 20px;
+max-height: 60px;
+position: relative;
+bottom: 0;
+}
